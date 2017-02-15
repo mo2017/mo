@@ -16,7 +16,7 @@
             $entries = array_diff($entries, array(".",".."));
             foreach($entries as $entry)
             {
-              echo "<li><a href='index.php?content=$entry'> $entry </a></li>\n";
+              echo " <li><a href='index.php?content=$entry'> $entry </a></li>\n";
             }
            ?>
         </ul>
